@@ -1,0 +1,64 @@
+
+.text-bold{
+    font-weight: bold;
+}
+fieldset.form-group {
+    position: relative;
+}
+
+.floating-label {
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.8;
+    color: #808080;
+}
+
+.form-control:focus + .floating-label,
+.form-control:valid + .floating-label {
+    font-size: 92%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+    color: #3c3c3c;
+}
+
+.label-for-disabled{
+    position: absolute;
+    transform: translate3d(0, -100%, 0);
+    padding-left: 7px;
+    font-size: 92%;
+    color: #3c3c3c;
+}
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #727272;
+}
+
+h5.titulo-pagina {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+table.tabla-horario thead,
+table.tabla-info-alumno thead,
+table.tabla-parciales thead {
+    background-color: #000080;
+}
+
+table.tabla-info-alumno tbody td,
+table.tabla-parciales tbody tr td {
+    text-align: center;
+}
+
+table.tabla-horario thead th,
+table.tabla-info-alumno thead th,
+table.tabla-parciales thead th {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
