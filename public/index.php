@@ -6,4 +6,4 @@ $iniciar=new Ruta;
 
 ?>
 
-<?php //Comentario Anayeli ?>
+<?php //Comentario Anayeli 2.0?>
