@@ -5,3 +5,5 @@ include '../app/loader.php';
 $iniciar=new Ruta;
 
 ?>
+
+<?php //Comentario Anayeli ?>
